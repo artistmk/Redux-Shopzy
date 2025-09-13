@@ -1,0 +1,39 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    background-color: rgb(0, 0, 27);
+    color: white;
+}
+
+.brand {
+   font-size: 22px;
+    text-align: center;
+    width: 17%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+
+}
+
+.cart {
+    width: 8%;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center; 
+    }
+    .brand, .cart {
+        width: auto;
+        text-align: center;
+        margin: 8px 0;
+    }
+}
+
